@@ -14,22 +14,16 @@ To be perfectly honest - it is a [real chrome running on xvfb](http://tobyho.com
 
 ## Supported tags
 
-* chrome59, latest
-* chrome58
-* chrome56
-* chrome55
-* chrome54
-
-Please note that chrome57 is not available, as it does not work reliably with Ptoractor. There were intermittent test failures, usually around selecting elements `by.binding`.
+* chrome79
 
 ## What is included in the latest?
 
 The image in the latest version contains the following packages in their respective versions:
 
-* Chrome - 59
-* Protractor - 4.0.14
+* Chrome - 79.0.3945.88
+* Protractor - 5.4.2
 * Node.js - 6.9.4
-* Chromedriver - 2.32
+* Chromedriver - 79.0.3945.36
 
 The packages are pinned to those versions so that and they should work together without issues. Pulling in the latest version of Chrome during image build proved unsuccessful at times, because Chromedriver is usually lagging behind with support.
 
